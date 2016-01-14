@@ -1,11 +1,9 @@
 main.edu.pl-Grapher
 ===================
 
-Sciąga twoje wyniki ze wszystkich konkursów na main.edu.pl i pokazuje je jako paski postępu. Gamifikacja nauki.
+Downloads your scores from all the contests at main.edu.pl and shows them as progress bars.
 
-Działa na python3 (testowane na python3.2) i wymaga zainstalowania BeautifulSoup (```pip install BeautifulSoup```)
+Requries Python3 and BeautifulSoup (```pip install BeautifulSoup```). Tested on Python3.2
 
-Aby ściągnąć twoje wyniki uruchom plik ```download.py```, który ściągnie i pokaże ci twoje wyniki.
-Jeśli ściągnąłeś już wyniki wcześniej, możesz pracować offline i nie zawalać strony zapytaniami do każdej podstrony włączając ```show.py```.
-
-**Program nie zapamiętuje ani twojego hasła ani nazwy użytkownika.**
+Run ```download.py``` to cache and shows your results.
+Afterwards you can access the offline cache by running ```show.py```
